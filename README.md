@@ -31,7 +31,6 @@ This is the Final Print pdf of the PCB design which used to make the PCB.
 	
 <h2> Image of the Real Implementation </h>
 <br>
-<br>
 <h6>	
 This is the circuit which made on a bread board to design the Final PCB.
 </h6>
