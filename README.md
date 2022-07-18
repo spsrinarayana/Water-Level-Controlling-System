@@ -72,7 +72,8 @@ In our design there are three sensors that can give 8 (2^3) possible combination
 		Moter 2 - OFF
 ###### Other combinations
 When water is filling into the tank, other combinations (other than above 3 Combinations) are not possible because water is filled from the tank bottom to top. At an occasion which water stucked in a sensor, the two motors should not work. Therefore, In other combinations of the Sensors,
- 	Motor 1 - OFF
+<br> 	
+	Motor 1 - OFF <br>
 		Moter 2 - OFF
     
 ## Code
