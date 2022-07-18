@@ -38,7 +38,9 @@
 ## Image of the Real Implementation
 	This is the circuit which made on a bread board to design the Final PCB.
 
-![WhatsApp Image 2022-07-18 at 4 22 59 PM](https://user-images.githubusercontent.com/47419680/179497169-dc3a85c0-05d4-435b-9a8f-cb82bf851842.jpeg)
+![image](https://user-images.githubusercontent.com/47419680/179498142-23918b85-86b2-41f8-9e32-ba2ecacffc42.png)
+
+
 
       
 
