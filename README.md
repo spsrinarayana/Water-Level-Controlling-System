@@ -49,14 +49,14 @@ The submission for the Lab 4 Report of Group 7 for MicroComputers, Y2 S1, Facult
 
 #define _XTAL_FREQ 20000000
 
-void __interrupt() isr(void) {      // When RB0=1 interrupt function executed
-    if(RB2 == 1 && RB1 == 1) {      // also with RB0=1 other 2 switches also to be Logic high to proceed
-        RC0 = 0;                    //Motor1 is turned off
-        RC1 = 1;                    //Motor2 is turn on and again off after 1/2 second
-        __delay_ms(500);
-        RC1 = 0;        
-    }
-    INTF = 0;
+  void __interrupt() isr(void) {      // When RB0=1 interrupt function executed
+     if(RB2 == 1 && RB1 == 1) {      // also with RB0=1 other 2 switches also to be Logic high to proceed
+         RC0 = 0;                    //Motor1 is turned off
+          RC1 = 1;                    //Motor2 is turn on and again off after 1/2 second
+          __delay_ms(500);
+          RC1 = 0;        
+      }
+      INTF = 0;
     
 }
 void main(void){
