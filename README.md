@@ -29,13 +29,15 @@
 ## PCB Design
 ![image](https://user-images.githubusercontent.com/47419680/179459428-0e6e42df-8826-4595-a07d-1b5b051771f2.png)
 
+![image](https://user-images.githubusercontent.com/47419680/179490918-b68f161f-03db-4c31-9df2-629813773f2e.png)
 
 ## Image of the Real Implementation
 
       
 
 ## Results
-	
+	In our design there are three sensors that can give 8 (2^3) possible combinations. Here, we are given to consider
+    only 3 combinations of the Sensors. Then for other combinations 2 motors will turned off.   
 
 	
 
