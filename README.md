@@ -42,9 +42,9 @@
 ## Results
 	In our design there are three sensors that can give 8 (2^3) possible combinations. Here, we are given to consider
     only 3 combinations of the Sensors. Then for other combinations 2 motors should turned off. 
-### Combination 1
-### Combination 2
-### Combination 3
+###### Combination 1
+###### Combination 2
+###### Combination 3
 	
 
 
