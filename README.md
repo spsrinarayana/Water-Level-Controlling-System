@@ -27,15 +27,14 @@ This is the Final Print pdf of the PCB design which used to make the PCB.
 </p>
 <p align="center">	
 <img src= "https://user-images.githubusercontent.com/47419680/179490918-b68f161f-03db-4c31-9df2-629813773f2e.png" width="500" )
-</p>
-<br>
 
-	
-<h2> Image of the Real Implementation </h>
 <br>
-<h6>	
+</p>
+	
+## Image of the Real Implementation 
+
 This is the circuit which made on a bread board to design the Final PCB.
-</h6>
+
 
 <p align="center">	
 <img src= "https://user-images.githubusercontent.com/47419680/179498142-23918b85-86b2-41f8-9e32-ba2ecacffc42.png" width="500" )
@@ -73,9 +72,10 @@ In our design there are three sensors that can give 8 (2^3) possible combination
 ###### Other combinations
 When water is filling into the tank, other combinations (other than above 3 Combinations) are not possible because water is filled from the tank bottom to top. At an occasion which water stucked in a sensor, the two motors should not work. Therefore, In other combinations of the Sensors,
 <br> 	
+	<p align="center">
 	Motor 1 - OFF <br>
 		Moter 2 - OFF
-    
+    	</p>
 ## Code
 
     // PIC16F877A Configuration Bit Settings
