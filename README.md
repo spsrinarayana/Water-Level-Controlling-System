@@ -29,7 +29,7 @@
 ## PCB Design
 	This is the Implementation of the PCB in PCB layout mode in Proteus Simulation Software when designing the PCB.
 
-![image](https://user-images.githubusercontent.com/47419680/179459428-0e6e42df-8826-4595-a07d-1b5b051771f2.png)
+![image](https://user-images.githubusercontent.com/47419680/179459428-0e6e42df-8826-4595-a07d-1b5b051771f2.png | width = 10)
 
 	This is the Final Print pdf of the PCB design which used to make the PCB.
 	
