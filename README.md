@@ -5,21 +5,11 @@
                    EN21474132 - Rathnayaka M. H. M.
 
 ## Introduction
-    	In this lab, the main objective is to create an Automatic water level controlling system of a water tank using
-    Microcontroller. So, in our real implementation we have used  water detecting sensors, PCB, 2 x Motors, 
-    PIC16F877A Microcontroller, 20 MHz Crystal Oscillator, 2 x 2 pF Capacitors. for this Implementation we Programmed 
-    Using MicroC language. 
+  In this lab, the main objective is to create an Automatic water level controlling system of a water tank using Microcontroller. So, in our real implementation we have used  water detecting sensors, PCB, 2 x Motors, PIC16F877A Microcontroller, 20 MHz Crystal Oscillator, 2 x 2 pF Capacitors. for this Implementation we Programmed Using MicroC language. 
       
-    	This System works according to the Combinations of the 3 x Sensor states (Logic High or Logic Low). Water Level
-    sensors we used are Analog Sensors. But, we are using three sensors at three different levels of the Tank. Then,
-    that sensors act as digital sensors in our Implementation. When using those Sensors the Logic low (0) is 
-    considered when water level not reaches to the water sensor and the Logic High (1) is considered when water level
-    exceeds the limit of the maximum point of a each individual sensor. Then we can neglect the analog behavour of 
-    the Sensor.
+ This System works according to the Combinations of the 3 x Sensor states (Logic High or Logic Low). Water Level sensors we used are Analog Sensors. But, we are using three sensors at three different levels of the Tank. Then, that sensors act as digital sensors in our Implementation. When using those Sensors the Logic low (0) is considered when water level not reaches to the water sensor and the Logic High (1) is considered when water level exceeds the limit of the maximum point of a each individual sensor. Then we can neglect the analog behavour of the Sensor.
            
-    	When designign the PCB we used The Proteus Simulation Software. After, designing the Circuit diagram on Schematic
-    capture in Proteus there is an Option  (PCB layout) to Design the PCB. Next, the Designed PCB layout can be Printed
-    in to a .pdf (Portable Document Format) file. To Design the PCB physically, some steps shoud be followed.
+ When designign the PCB we used The Proteus Simulation Software. After, designing the Circuit diagram on Schematic capture in Proteus there is an Option  (PCB layout) to Design the PCB. Next, the Designed PCB layout can be Printed in to a .pdf (Portable Document Format) file. To Design the PCB physically, some steps shoud be followed.
            
                 
            
@@ -29,25 +19,28 @@
 ## PCB Design
 This is the Implementation of the PCB in PCB layout mode in Proteus Simulation Software when designing the PCB.
 <p align="center">
-<img src= "https://user-images.githubusercontent.com/47419680/179459428-0e6e42df-8826-4595-a07d-1b5b051771f2.png" width="200" )
+<img src= "https://user-images.githubusercontent.com/47419680/179459428-0e6e42df-8826-4595-a07d-1b5b051771f2.png" width="500" )
 </p>
 <br>	
 This is the Final Print pdf of the PCB design which used to make the PCB.
-	
-![image](https://user-images.githubusercontent.com/47419680/179490918-b68f161f-03db-4c31-9df2-629813773f2e.png)
-
+<p align="center">	
+<img src= "https://user-images.githubusercontent.com/47419680/179490918-b68f161f-03db-4c31-9df2-629813773f2e.png" width="500" )
+</p>
+<br>
 ## Image of the Real Implementation
-	This is the circuit which made on a bread board to design the Final PCB.
+This is the circuit which made on a bread board to design the Final PCB.
 
-![image](https://user-images.githubusercontent.com/47419680/179498142-23918b85-86b2-41f8-9e32-ba2ecacffc42.png)
-
+<p align="center">	
+<img src= "https://user-images.githubusercontent.com/47419680/179498142-23918b85-86b2-41f8-9e32-ba2ecacffc42.png" width="500" )
+</p>
+<br>
 
 
       
 
 ## Results
-	In our design there are three sensors that can give 8 (2^3) possible combinations. Here, we are given to consider
-    only 3 combinations of the Sensors. Then for other combinations 2 motors should turned off. 
+In our design there are three sensors that can give 8 (2^3) possible combinations. Here, we are given to consider only 3 combinations of the Sensors. Then for other combinations 2 motors should turned off. 
+
 ###### Combination 1
 	Sensor 1 (sw1) is ON
 	Sensor 2 (sw2) is OFF
@@ -71,10 +64,8 @@ This is the Final Print pdf of the PCB design which used to make the PCB.
 		Moter 2 - ON (for 500 ms)
 		Moter 2 - OFF
 ###### Other combinations
-	When water is filling into the tank, other combinations (other than above 3 Combinations) are not possible because
-    water is filled from the tank bottom to top. At an occasion which water stucked in a sensor, the two motors should not work.
-    Therefore, In other combinations of the Sensors,
-    	Motor 1 - OFF
+When water is filling into the tank, other combinations (other than above 3 Combinations) are not possible because water is filled from the tank bottom to top. At an occasion which water stucked in a sensor, the two motors should not work. Therefore, In other combinations of the Sensors,
+ 	Motor 1 - OFF
 		Moter 2 - OFF
     
 ## Code
