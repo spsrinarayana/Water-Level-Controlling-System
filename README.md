@@ -43,11 +43,34 @@
 	In our design there are three sensors that can give 8 (2^3) possible combinations. Here, we are given to consider
     only 3 combinations of the Sensors. Then for other combinations 2 motors should turned off. 
 ###### Combination 1
+	Sensor 1 (sw1) is ON
+	Sensor 2 (sw2) is OFF
+	Sensor 3 (sw3) is OFF
+	Then,
+		Motor 1 - ON
+		Moter 2 - OFF
 ###### Combination 2
+	Sensor 1 (sw1) is ON
+	Sensor 2 (sw2) is ON
+	Sensor 3 (sw3) is OFF
+	Then,
+		Motor 1 - ON
+		Moter 2 - OFF
 ###### Combination 3
-	
-
-
+	Sensor 1 (sw1) is ON
+	Sensor 2 (sw2) is ON
+	Sensor 3 (sw3) is ON
+	Then,
+		Motor 1 - OFF
+		Moter 2 - ON (for 500 ms)
+		Moter 2 - OFF
+###### Other combinations
+	When water is filling into the tank, other combinations (other than above 3 Combinations) are not possible because
+    water is filled from the tank bottom to top. At an occasion which water stucked in a sensor, the two motors should not work.
+    Therefore, In other combinations of the Sensors,
+    	Motor 1 - OFF
+		Moter 2 - OFF
+    
 ## Code
 
     // PIC16F877A Configuration Bit Settings
