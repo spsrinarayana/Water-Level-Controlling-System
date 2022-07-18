@@ -6,6 +6,10 @@ The submission for the Lab 4 Report of Group 7
 
 ## Introduction
 ## PCB Design
+        ![image](https://user-images.githubusercontent.com/47419680/179459428-0e6e42df-8826-4595-a07d-1b5b051771f2.png)
+
+
+
 
 ## Image of the Real Implementation
 ## Results
