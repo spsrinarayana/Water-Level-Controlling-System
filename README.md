@@ -27,7 +27,10 @@ This is the Final Print pdf of the PCB design which used to make the PCB.
 <img src= "https://user-images.githubusercontent.com/47419680/179490918-b68f161f-03db-4c31-9df2-629813773f2e.png" width="500" )
 </p>
 <br>
-## Image of the Real Implementation
+
+	
+<h2> Image of the Real Implementation </h>
+	
 This is the circuit which made on a bread board to design the Final PCB.
 
 <p align="center">	
