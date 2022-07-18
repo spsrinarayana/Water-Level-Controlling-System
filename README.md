@@ -5,21 +5,21 @@
                    EN21474132 - Rathnayaka M. H. M.
 
 ## Introduction
-                In this lab, the main objective is to create an Automatic water level controlling system of a water tank using
-           Microcontroller. So, in our real implementation we have used  water detecting sensors, PCB, 2 x Motors, 
-           PIC16F877A Microcontroller, 20 MHz Crystal Oscillator, 2 x 2 pF Capacitors. for this Implementation we Programmed 
-           Using MicroC language. 
+    	In this lab, the main objective is to create an Automatic water level controlling system of a water tank using
+    Microcontroller. So, in our real implementation we have used  water detecting sensors, PCB, 2 x Motors, 
+    PIC16F877A Microcontroller, 20 MHz Crystal Oscillator, 2 x 2 pF Capacitors. for this Implementation we Programmed 
+    Using MicroC language. 
       
-                This System works according to the Combinations of the 3 x Sensor states (Logic High or Logic Low). Water Level
-           sensors we used are Analog Sensors. But, we are using three sensors at three different levels of the Tank. Then,
-           that sensors act as digital sensors in our Implementation. When using those Sensors the Logic low (0) is 
-           considered when water level not reaches to the water sensor and the Logic High (1) is considered when water level
-           exceeds the limit of the maximum point of a each individual sensor. Then we can neglect the analog behavour of 
-           the Sensor.
+    	This System works according to the Combinations of the 3 x Sensor states (Logic High or Logic Low). Water Level
+    sensors we used are Analog Sensors. But, we are using three sensors at three different levels of the Tank. Then,
+    that sensors act as digital sensors in our Implementation. When using those Sensors the Logic low (0) is 
+    considered when water level not reaches to the water sensor and the Logic High (1) is considered when water level
+    exceeds the limit of the maximum point of a each individual sensor. Then we can neglect the analog behavour of 
+    the Sensor.
            
-                When designign the PCB we used The Proteus Simulation Software. After, designing the Circuit diagram on Schematic
-           capture in Proteus there is an Option  (PCB layout) to Design the PCB. Next, the Designed PCB layout can be Printed
-           in to a .pdf (Portable Document Format) file. To Design the PCB physically, some steps shoud be followed.
+    	When designign the PCB we used The Proteus Simulation Software. After, designing the Circuit diagram on Schematic
+    capture in Proteus there is an Option  (PCB layout) to Design the PCB. Next, the Designed PCB layout can be Printed
+    in to a .pdf (Portable Document Format) file. To Design the PCB physically, some steps shoud be followed.
            
                 
            
@@ -35,7 +35,9 @@
       
 
 ## Results
+	
 
+	
 
 
 ## Code
