@@ -47,10 +47,11 @@ This is How the PCB looks like after it Printed on the Copper board before solde
 <img src= "https://user-images.githubusercontent.com/47419680/180139177-6516c988-3be2-45d2-9f03-a492b72231c6.jpg" width="500" )
 </p>
 <br>  
-	
-The Final System looks like below Video.
-https://user-images.githubusercontent.com/47419680/180144178-49a30b7e-b139-45da-a8ff-3b2eb3f40a90.mp4
 
+<p align="center">	
+The Final System looks like below Video.
+<video src="https://user-images.githubusercontent.com/47419680/180144178-49a30b7e-b139-45da-a8ff-3b2eb3f40a90.mp4" width="500")
+</p>
 	
 	
 
