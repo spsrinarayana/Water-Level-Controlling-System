@@ -5,12 +5,16 @@
                    EN21474132 - Rathnayaka M. H. M.
 
 ## Introduction
+<p align="justify">
    In this lab, the main objective is to create an Automatic water level controlling system of a water tank using Microcontroller. So, in our real implementation we have used  water detecting sensors, PCB, 2 x Motors, PIC16F877A Microcontroller, 20 MHz Crystal Oscillator, 2 x 2 pF Capacitors. for this Implementation we Programmed Using MicroC language. 
-      
+</font>	
+</p> 
+<p align="justify">
   This System works according to the Combinations of the 3 x Sensor states (Logic High or Logic Low). Water Level sensors we used are Analog Sensors. But, we are using three sensors at three different levels of the Tank. Then, that sensors act as digital sensors in our Implementation. When using those Sensors the Logic low (0) is considered when water level not reaches to the water sensor and the Logic High (1) is considered when water level exceeds the limit of the maximum point of a each individual sensor. Then we can neglect the analog behavour of the Sensor.
-           
+</p> 
+<p align="justify">
    When designign the PCB we used The Proteus Simulation Software. After, designing the Circuit diagram on Schematic capture in Proteus there is an Option  (PCB layout) to Design the PCB. Next, the Designed PCB layout can be Printed in to a .pdf (Portable Document Format) file. To Design the PCB physically, some steps shoud be followed.
-           
+</p>           
                 
            
 		   		
@@ -33,7 +37,7 @@ This is the Final Print pdf of the PCB design which used to make the PCB.
 	
 ## Image of the Real Implementation 
 
-This is the circuit which made on a bread board to design the Final PCB.
+This is the circuit which made on a bread board to design the Final PCB. Before we make the PCB, we have to decide exact components which we are going to used to implement the System. Then, we have to set up all the components on the Bread board  and finalize the Components.  
 
 
 <p align="center">	
@@ -47,16 +51,19 @@ This is How the PCB looks like after it Printed on the Copper board before solde
 <img src= "https://user-images.githubusercontent.com/47419680/180139177-6516c988-3be2-45d2-9f03-a492b72231c6.jpg" width="500" )
 </p>
 <br>  
-
+<p align="justify">
+The Final System looks like below Video. Here, 2LED's indicates the signal which gives to the Moters. From that Signal we can Operate the Moter according to the Combinations of the Three sensors. 	
+</p> 	
 <p align="center">	
-The Final System looks like below Video.
 <video src="https://user-images.githubusercontent.com/47419680/180144178-49a30b7e-b139-45da-a8ff-3b2eb3f40a90.mp4" width="500")
 </p>
 	
 	
 
 ## Results
+<p align="justify">	
 In our design there are three sensors that can give 8 (2<sup>3</sup> combinations) possible combinations. Here, we are given to consider only 3 combinations of the Sensors. Then for other combinations 2 motors should turned off. 
+</p> 
 
 ###### Combination 1
 	Sensor 1 (sw1) is ON
@@ -81,7 +88,9 @@ In our design there are three sensors that can give 8 (2<sup>3</sup> combination
 		Moter 2 - ON (for 500 ms)
 		Moter 2 - OFF
 ###### Other combinations
+<p align="justify">	
 When water is filling into the tank, other combinations (other than above 3 Combinations) are not possible because water is filled from the tank bottom to top. At an occasion which water stucked in a sensor, the two motors should not work. Therefore, In other combinations of the Sensors,
+</p> 	
 <br> 	
 	<p align="center">
 	Motor 1 - OFF <br>
