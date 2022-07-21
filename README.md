@@ -49,7 +49,7 @@ This is How the PCB looks like after it Printed on the Copper board before solde
 <br>      
 
 ## Results
-In our design there are three sensors that can give 8 (2^3) possible combinations. Here, we are given to consider only 3 combinations of the Sensors. Then for other combinations 2 motors should turned off. 
+In our design there are three sensors that can give 8 (2^<sup>3</sup>) possible combinations. Here, we are given to consider only 3 combinations of the Sensors. Then for other combinations 2 motors should turned off. 
 
 ###### Combination 1
 	Sensor 1 (sw1) is ON
