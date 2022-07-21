@@ -41,8 +41,12 @@ This is the circuit which made on a bread board to design the Final PCB.
 </p>
 <br>
 
+This is How the PCB looks like after it Printed on the Copper board before solder the Components to it.
 
-      
+<p align="center">	
+<img src= "https://user-images.githubusercontent.com/47419680/180139177-6516c988-3be2-45d2-9f03-a492b72231c6.jpg" width="500" )
+</p>
+<br>      
 
 ## Results
 In our design there are three sensors that can give 8 (2^3) possible combinations. Here, we are given to consider only 3 combinations of the Sensors. Then for other combinations 2 motors should turned off. 
