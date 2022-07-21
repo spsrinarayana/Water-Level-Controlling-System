@@ -46,7 +46,13 @@ This is How the PCB looks like after it Printed on the Copper board before solde
 <p align="center">	
 <img src= "https://user-images.githubusercontent.com/47419680/180139177-6516c988-3be2-45d2-9f03-a492b72231c6.jpg" width="500" )
 </p>
-<br>      
+<br>  
+	
+The Final System looks like below Video.
+https://user-images.githubusercontent.com/47419680/180144178-49a30b7e-b139-45da-a8ff-3b2eb3f40a90.mp4
+
+	
+	
 
 ## Results
 In our design there are three sensors that can give 8 (2<sup>3</sup> combinations) possible combinations. Here, we are given to consider only 3 combinations of the Sensors. Then for other combinations 2 motors should turned off. 
