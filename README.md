@@ -50,7 +50,11 @@ This is How the PCB looks like after it Printed on the Copper board before solde
 <p align="center">	
 <img src= "https://user-images.githubusercontent.com/47419680/180139177-6516c988-3be2-45d2-9f03-a492b72231c6.jpg" width="500" )
 </p>
-<br>  
+<br> 
+<p align="center">	
+<img src= "https://user-images.githubusercontent.com/47419680/180152690-d22f8e52-3c39-4bf7-b26b-629bc916e9a3.png" width="500" )
+</p>
+<br>	
 <p align="justify">
 The Final System looks like below Video. Here, 2LED's indicates the signal which gives to the Moters. From that Signal we can Operate the Moter according to the Combinations of the Three sensors. 	
 </p> 	
