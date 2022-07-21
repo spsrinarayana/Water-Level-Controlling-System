@@ -103,14 +103,14 @@ When water is filling into the tank, other combinations (other than above 3 Comb
     // 'C' source line config statements
 
     // CONFIG
-    #pragma config FOSC = HS        // Oscillator Selection bits (HS oscillator)
-    #pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled)
-    #pragma config PWRTE = OFF      // Power-up Timer Enable bit (PWRT disabled)
-    #pragma config BOREN = OFF      // Brown-out Reset Enable bit (BOR disabled)
-    #pragma config LVP = OFF        // Low-Voltage (Single-Supply)
-    #pragma config CPD = OFF        // Data EEPROM Memory Code Protection bit (Data EEPROM code protection off)
-    #pragma config WRT = OFF        // Flash Program Memory Write Enable bits 
-    #pragma config CP = OFF         // Flash Program Memory Code Protection bit (Code protection off)
+    #pragma config FOSC = HS        
+    #pragma config WDTE = OFF       
+    #pragma config PWRTE = OFF      
+    #pragma config BOREN = OFF      
+    #pragma config LVP = OFF        
+    #pragma config CPD = OFF        
+    #pragma config WRT = OFF         
+    #pragma config CP = OFF         
 
 
 
