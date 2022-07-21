@@ -36,17 +36,17 @@ This is the Final Print pdf of the PCB design which used to make the PCB.
 </p>
 	
 ## Image of the Real Implementation 
-
+<p align="justify">
 This is the circuit which made on a bread board to design the Final PCB. Before we make the PCB, we have to decide exact components which we are going to used to implement the System. Then, we have to set up all the components on the Bread board  and finalize the Components.  
-
+</p> 
 
 <p align="center">	
 <img src= "https://user-images.githubusercontent.com/47419680/179498142-23918b85-86b2-41f8-9e32-ba2ecacffc42.png" width="500" )
 </p>
 <br>
-
+<p align="justify">
 This is How the PCB looks like after it Printed on the Copper board before solder the Components to it.
-
+</p> 
 <p align="center">	
 <img src= "https://user-images.githubusercontent.com/47419680/180139177-6516c988-3be2-45d2-9f03-a492b72231c6.jpg" width="500" )
 </p>
