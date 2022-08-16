@@ -100,6 +100,7 @@ When water is filling into the tank, other combinations (other than above 3 Comb
 	Motor 1 - OFF <br>
 		Moter 2 - OFF
     	</p>
+
 ## Code
 
     // PIC16F877A Configuration Bit Settings
